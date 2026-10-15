@@ -1,0 +1,23 @@
+package no_ai_code;
+
+import java.awt.Color;
+
+public class Node {
+    int g;
+    int h;
+    int f;
+    boolean collison;
+    int x ;
+    int y;
+    Color color;
+    Node parent;
+
+    boolean isSrc;
+    Boolean isDest;
+
+    Node(int x , int y){
+        this.x = x;
+        this.y = y;
+        this.color = Color.WHITE;
+    }
+}
